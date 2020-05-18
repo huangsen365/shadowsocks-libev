@@ -12,8 +12,8 @@ ENV TZ UTC
 ENV ARGS=
 
 CMD exec ss-server \
-      -s $BIND_ADDR \
-      -s $BIND_PORT \
+      -b $BIND_ADDR \
+      -l $BIND_PORT \
       -s $SERVER_ADDR \
       -p $SERVER_PORT \
       -k ${PASSWORD:-$(hostname)} \
