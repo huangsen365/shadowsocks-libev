@@ -11,7 +11,7 @@ ENV BIND_PORT       7074
 ENV TZ UTC
 ENV ARGS=
 
-CMD exec ss-local \
+CMD exec ss-server \
       -b $BIND_ADDR \
       -l $BIND_PORT \
       -s $SERVER_ADDR \
