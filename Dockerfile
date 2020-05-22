@@ -1,4 +1,4 @@
-FROM huangsen365/shadowsocks-libev
+FROM shadowsocks/shadowsocks-libev
 
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8388
